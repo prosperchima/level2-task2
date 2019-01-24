@@ -1,0 +1,33 @@
+#myform{
+    height: 60px;
+    width: 100%;
+}
+.my-icon{
+    position: relative;
+    left: 150px;
+}
+.my-image{
+    margin-left: 220px;
+}
+.move{
+    margin-left: 280px;
+    margin-top: -60px;
+    padding-bottom: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+}
+
+
+
+@media(max-width: 600px){
+.my-image{
+    margin-left: 0px;
+}
+.my-icon{
+    left: 0px;
+}
+.move{
+    margin-left: 60px;
+}
+
+}
